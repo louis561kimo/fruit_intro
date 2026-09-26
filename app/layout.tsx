@@ -18,8 +18,9 @@ const notoSerif = Noto_Serif_TC({
 });
 
 export const metadata: Metadata = {
-  title: "台灣好果｜台灣當令水果選購",
-  description: "嚴選台灣在地當令水果，產地直送到府，線上選購新鮮好味道。",
+  title: "台灣好果｜學習測試用網站",
+  description:
+    "本網站為個人學習與技術測試用途，非正式營運之販售網站。內容示範嚴選台灣在地當令水果的介紹與選購頁面設計。",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -101,6 +101,11 @@ const seasons = [
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col">
+      {/* Notice */}
+      <div className="border-b border-border/80 bg-surface px-6 py-2 text-center text-[11px] tracking-wide text-muted">
+        本網站為個人學習與技術測試用途，非正式販售網站，內容與商品僅供展示。
+      </div>
+
       {/* Hero */}
       <section className="mx-auto w-full max-w-5xl px-6 pb-20 pt-24 text-center sm:pt-32">
         <p className="mb-4 text-xs tracking-[0.4em] text-muted">
