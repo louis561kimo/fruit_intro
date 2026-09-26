@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   title: "台灣好果｜學習測試用網站",
   description:
     "本網站為個人學習與技術測試用途，非正式營運之販售網站。內容示範嚴選台灣在地當令水果的介紹與選購頁面設計。",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
